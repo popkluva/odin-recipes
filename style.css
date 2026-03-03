@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+h2 {
+    color: rgb(199, 159, 121)
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+h1,
+.center {
+    text-align: center;
+    display: block;
+}
+
+.center {
+    width: 100px;
+    margin: auto;
+    padding: 10px;
+    border: 5px dotted rgb(231, 114, 114);
+    margin-bottom: 20px;
+}
+
+.main {
+    display: block;
+    text-align: left;
+    max-width: 200px;
+    margin: 0px auto;
+}
+
+.image {
+    float: left;
+    margin-right: 30px;
+    border: 5px dotted rgb(231, 114, 114);
+}
+
+.description,
+.ingredients,
+.steps {
+    border: 5px dotted rgb(231, 114, 114);
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(207, 247, 233);
+}
+
+.description {
+    width: 900px;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.ingredients {
+    width: 500px;
+    margin-left: auto;
+    margin-right: 300px;
+}
+
+.steps {
+    width: 1500px;
+    margin: auto;
+}
+
+.descfix {
+    margin-right: 300px;
+}
+
+.stepsfix {
+    width: 1000px;
+    margin-right: 300px;
+}
